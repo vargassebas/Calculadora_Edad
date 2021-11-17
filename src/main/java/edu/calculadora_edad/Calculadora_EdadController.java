@@ -44,7 +44,7 @@ public class Calculadora_EdadController implements Initializable {
             LocalDate edad = LocalDate.of(ano.getValue(), mes.getValue(), dia.getValue());
             int anos = Period.between(edad, actual).getYears(), meses = Period.between(edad, actual).getMonths(),
                     dias = Period.between(edad, actual).getDays();
-            result.setText(anos + " años \n" + meses + " meses \n" + dias + " dias.");
+            result.setText(anos + " años \n" + meses + " meses \n" + dias + " dias!");
             result.setVisible(true);
             error.setVisible(false);
             if (mes.getValue() <= LocalDate.now().getMonthValue()) {

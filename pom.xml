@@ -7,7 +7,7 @@
     <groupId>com.act2</groupId>
     <artifactId>actividad2</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>actividad2</name>
+    <name>Calculadora_Edad</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.act2.actividad2/edu.calculadora_edad.Calculadora_EdadApp</mainClass>
+                            <mainClass>edu.calculadora_edad/edu.calculadora_edad.Calculadora_EdadApp</mainClass>
                         </configuration>
                     </execution>
                 </executions>

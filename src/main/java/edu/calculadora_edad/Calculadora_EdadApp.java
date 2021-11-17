@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Calculadora_EdadApp extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Calculadora_EdadApp.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Calculadora_EdadApp.class.getResource("UI.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Font.loadFont(getClass().getResourceAsStream("/resources/fonts/Vonique64.tff"), 14);
         stage.setTitle("Calculadora de edad");

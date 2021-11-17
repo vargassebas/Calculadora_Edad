@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+.root {
+    -fx-font-family: 'Major Mono Display', monospace;
+    -fx-background-color: #ffffff;
+}
+
+.botones {
+    -fx-background-color: none;
+    -fx-border-color: black;
+    -fx-font-family: 'Major Mono Display', monospace;
+}
+
+.labels {
+    -fx-font-family: 'Major Mono Display', monospace;
+}
